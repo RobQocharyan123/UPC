@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/UPC/static/css/main.b74f9fb7.css",
+    "main.js": "/UPC/static/js/main.7189087f.js",
+    "static/media/4.png": "/UPC/static/media/4.fb23c56034924ff9bddf.png",
+    "static/media/2.png": "/UPC/static/media/2.d408f13b1bb17a2950a7.png",
+    "static/media/logo.png": "/UPC/static/media/logo.0aea2d1332b8dbe90b95.png",
+    "static/media/1.png": "/UPC/static/media/1.061942b3d674aca7e599.png",
+    "static/media/5.png": "/UPC/static/media/5.1fa21bd6f3831edabb09.png",
+    "index.html": "/UPC/index.html",
+    "main.b74f9fb7.css.map": "/UPC/static/css/main.b74f9fb7.css.map",
+    "main.7189087f.js.map": "/UPC/static/js/main.7189087f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74f9fb7.css",
+    "static/js/main.7189087f.js"
+  ]
+}
