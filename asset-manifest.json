@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/UPC/static/css/main.d6900347.css",
-    "main.js": "/UPC/static/js/main.b0568949.js",
+    "main.css": "/UPC/static/css/main.570d92d9.css",
+    "main.js": "/UPC/static/js/main.86dd982c.js",
+    "static/media/image-corusel1.jpg": "/UPC/static/media/image-corusel1.3f06b237310647aa5b63.jpg",
+    "static/media/image-corusel2.jpg": "/UPC/static/media/image-corusel2.f08076769d8f12a239bf.jpg",
     "index.html": "/UPC/index.html",
-    "main.d6900347.css.map": "/UPC/static/css/main.d6900347.css.map",
-    "main.b0568949.js.map": "/UPC/static/js/main.b0568949.js.map"
+    "main.570d92d9.css.map": "/UPC/static/css/main.570d92d9.css.map",
+    "main.86dd982c.js.map": "/UPC/static/js/main.86dd982c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6900347.css",
-    "static/js/main.b0568949.js"
+    "static/css/main.570d92d9.css",
+    "static/js/main.86dd982c.js"
   ]
 }
