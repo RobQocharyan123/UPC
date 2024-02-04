@@ -1,13 +1,10 @@
 import React from 'react';
-
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './UpsTeam.css';
-
+import './UpsTeam.css'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-
 import slide_image_1 from '../../assets/upsteam/1.png';
 import slide_image_2 from '../../assets/upsteam/2.png';
 import slide_image_3 from '../../assets/upsteam/3.png';
