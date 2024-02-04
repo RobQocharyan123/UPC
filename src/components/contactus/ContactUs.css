@@ -12,7 +12,6 @@
 .contact h1{
     font-size: 48px;
     line-height: 1.45833;
-    font-family: "Space Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
     font-weight: 400;
     color: black;
     margin-bottom: 50px;
@@ -35,7 +34,6 @@
     text-align: left;
     font-size: 36px;
     line-height: 1.33333;
-    font-family: "Space Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
     font-weight: 400;
     color: #151515;
     margin: 0px 0 29px 5px;
@@ -125,7 +123,6 @@ input,textarea{
 }
 
 h2{
-    font-family: "Space Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
     font-weight: 400;
     color: #151515;
     font-size: 36px;
@@ -300,7 +297,6 @@ textarea{
     padding: 11px 37px;
     font-size: 12px;
     line-height: 24px;
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: .1em;
     white-space: nowrap;

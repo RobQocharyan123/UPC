@@ -16,7 +16,7 @@ export default function Section1SliderItem ({imgUrl, titleMas1, titleMas2, conte
                     <div className='swiper-slider-item-block-content-text-block'>
                         <p>{content}</p>
                     </div>
-                    <button className='button swiper-slider-item-block-content-btn'>Read more</button>
+                    <a href='#choose' className='button swiper-slider-item-block-content-btn'>Read more</a>
                 </div>                
             </div>
         </animated.div>

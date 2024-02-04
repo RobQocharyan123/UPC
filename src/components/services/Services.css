@@ -1,0 +1,219 @@
+
+
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.cervises_h{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.services h1{
+    font-size: 42px;
+    color: rgb(16, 15, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contents{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    position: relative;
+    
+}
+
+.services-first{
+    text-align: center; 
+    width: 30%;
+    box-shadow: rgba(114, 113, 113, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+.services-first:hover{
+    transform: scale(1.05);
+    transition: .3s linear ;
+    
+}
+.services-first:hover > h3{
+    transform: scale(1.4);
+    transition:  .3s linear;
+    opacity: 65%;
+}
+
+.services-first h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(21, 20, 20);
+    line-height: 30px;
+    margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.services-first img{
+    width: 80px;
+    height: 80px;
+}
+
+.services-first.h3{
+    margin: 10px;
+}
+
+.services-first p{
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(152, 150, 150);
+    margin-bottom: 20px;
+}
+
+
+.service_details{
+    width: 150px;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 15px auto;
+    position: relative;
+
+}
+.service_details::after{
+    width: 10px;
+    height: 100%;
+    background: #4ccec9;
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    z-index: -1;
+    opacity: 0;
+
+
+}
+.service_details span{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.service_details:hover{
+    cursor: pointer;
+    background-color: rgba(231, 231, 231, 0);
+}
+
+.service_details:hover span{
+    z-index: 100;
+    color: white;
+    transition:  .2s ease-in-out; 
+    transform: scale(1.4);
+       
+}
+.service_details:hover::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    right: 0;
+    top: 0;
+    opacity: 1;
+    transition: .3s linear;    
+}
+.cardClass {
+    position: absolute;
+    z-index: 255;
+    width: 500px;
+    height: 400px;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+    box-shadow: rgba(114, 113, 113, 0.24) 0px 6px 10px;
+    border-radius: 8px ;
+    background-color:white;
+    text-align: center;
+
+}
+.cardClass span{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 30px;
+    height: 30x;
+    border-radius: 50%;
+    background-color: rgb(15, 183, 212);
+    color: #000;
+    padding: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+.cardClass span:hover{
+    cursor: pointer;
+    background: #000;
+    color: rgb(15, 183, 212);
+    transform: scale(1.3);
+    transition: .3s linear;
+}
+.cardClass h1{
+    margin: 20px 0;
+    font-style: italic;
+    text-shadow: rgb(0, 255, 229) 0 0 30px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .services{
+        padding: 0 20px;
+    }
+    .services-first{
+        width: 41%;
+        margin-left: 30px;
+    
+    }
+    .cardClass{
+        bottom: -150%;
+        left: 20%;
+
+    }
+}
+
+@media screen and (max-width:564px) {
+    .services{
+        padding: 0;
+    }
+    .services-first{
+        width: 90%;
+
+    }
+    .cardClass{
+        width: 350px;
+    }
+    .cardClass h1{
+        font-size: 30px; 
+    }
+    .cardClass p{
+        font-size: 16px;
+    }
+}   
+    
+
+
+
+/* h5{
+    color: blue;
+    position: absolute;
+    z-index: 11111;
+} */

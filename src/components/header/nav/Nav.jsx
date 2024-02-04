@@ -55,8 +55,8 @@ export default function Nav() {
                     </div>
                     <div className='navbar-info-bottom'> 
                         <ul>
-                            <li className='navbar-info-bottom-item-first'><a href="">About</a></li>
-                            <li><a href="#choose">Services</a></li>
+                            <li className='navbar-info-bottom-item-first'><a href="#choose">About</a></li>
+                            <li><a href="#services">Services</a></li>
                             <li><a href="#pricing">Pricing</a></li>
                             <li><a href="">Promos</a></li>
                             <li className='navbar-info-bottom-item-last'><a href="#contact">Contact us</a></li>
@@ -71,8 +71,8 @@ export default function Nav() {
                     <div>
                         <button className={`open-btn-mobile ${menuOpen ? "activ" : ""}`} onClick={openMenu}><span></span></button>
                         <ul className={`mobile-nav-list ${menuOpen ? "open" : "close"}`}> 
-                            <li><a href="#">About</a></li>
-                            <li><a href='#choose'>Services</a></li>
+                            <li><a href="#choose">About</a></li>
+                            <li><a href='#services'>Services</a></li>
                             <li><a href='#pricing'>Pricing</a></li>
                             <li><a href='#'>Promos</a></li>
                             <li><a href='#contact'>Contact us</a></li>

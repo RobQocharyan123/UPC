@@ -165,7 +165,7 @@
     padding-right: 40px;
 }
 
-.active div h1, .active div p, .active div button {
+.active div h1, .active div p, .active div a {
     animation:  fadeInUpSmall 1.5s ease-in-out;
 }
 
