@@ -5,8 +5,8 @@ import { PhoneNumber } from "./PhoneNumber";
 
 export const ContactUs = () => {
   return (
-    <div className="contact">
-      <h1>Contact Us</h1>
+    <div className="contact" id="contact">
+      <h1 >Contact Us</h1>
       <div className="contact-all">
         <div className="contact-touch">
           <h2>Get In Touch</h2>

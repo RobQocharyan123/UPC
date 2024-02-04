@@ -7,7 +7,7 @@ import { PiRocketLaunchThin } from "react-icons/pi";
 
 export const WhoChooseUs = () =>{
     return(
-        <section className="section2">
+        <section className="section2" id="choose">
         <div className="container">
             <h2>Who Choose Us</h2>
             <div className="divs">

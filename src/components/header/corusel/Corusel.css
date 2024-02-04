@@ -1,0 +1,281 @@
+/* @font-face {
+    font-family: "Light";   
+    src: local("SpaceMono"),
+      url("../font/SpaceMono-Regular.ttf") format("truetype");
+} */
+
+/*============================ Swiper button styele ============================*/
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev{
+    position: absolute;
+    transform: translate3d(0, -46%, 0);
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 61px;
+    width: 28px;
+    cursor: pointer;
+    transition: .3s;
+    will-change: transform;
+    z-index: 10;
+
+}
+
+.mySwiper .swiper-button-next {
+    right: 13%;
+    border-left: 2px solid #ffffff;
+    border-right: 0;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.mySwiper .swiper-button-prev {
+    left: 13%;
+    border-left:0;
+    border-right:  2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.mySwiper .swiper-button-next::before, .mySwiper .swiper-button-prev::before{
+    top: 0;
+    content: '';
+    position: absolute;
+    height: 2px;
+    border: 0 solid #ffffff;
+    transition: .3s;
+    height: 24px;
+    width: 17px;
+    border-bottom-width: 2px;
+}
+
+.mySwiper .swiper-button-next::before{
+    left: 19px;
+}
+
+.mySwiper .swiper-button-prev::before{
+    right: 19px;
+}
+
+.mySwiper  .swiper-button-next::after, .mySwiper  .swiper-button-prev::after {
+    position: absolute;
+ 
+    width: 26px;
+    height: 25px !important;
+    bottom: 0;
+    border-top-width: 2px !important; 
+    content: '';
+    height: 2px;
+    border: 0 solid #ffffff;
+    transition: .3s;
+}
+
+.mySwiper  .swiper-button-next::after{
+    left: 28px;
+}
+
+.mySwiper  .swiper-button-prev::after{
+    right: 28px;
+}
+
+.mySwiper  .swiper-button-next:hover{
+    width: 40px;
+    border-color: #00a9ff;
+}
+
+.mySwiper  .swiper-button-next:hover::before{
+    left: 28px;
+    width: 26px;
+    border-color: #00a9ff;
+}
+
+.mySwiper  .swiper-button-next:hover::after{
+    left: 28px;
+    width: 26px;
+    height: 25px;
+    border-color: #00a9ff;
+}
+
+.mySwiper  .swiper-button-prev:hover{
+    width: 40px;
+    border-color: #00a9ff;
+}
+
+.mySwiper  .swiper-button-prev:hover::before{
+    right: 28px;
+    width: 26px;
+    border-color: #00a9ff;
+}
+
+.mySwiper  .swiper-button-prev:hover::after{
+    border-color: #00a9ff;
+}
+
+/*============================ Swiper slider item block ============================*/
+.swiper-slider-item-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slider-item-block-content-text-block {
+   height: 100px;
+    width: 90%;
+}
+
+/*============================ Swiper slider item block content ============================*/
+.swiper-slider-item-block-content {
+   width: 62%;
+   padding: 130px 0 120px;
+   box-sizing: border-box;
+}
+
+.swiper-slider-item-block-content h1{
+    font-size: 60px;
+    line-height: 1.2;
+    color: white;
+    font-family: "SpaceMono";
+    font-weight: 100;
+}
+
+.swiper-slider-item-block-content h1 span {
+    display: block;
+}
+
+.swiper-slider-item-block-content p {
+    font-size: 18px;
+    color: white;
+    padding-left: 0;
+    font-family: "SpaceMono";
+    letter-spacing: .04rem;
+    margin-top: 16px;
+}
+
+.swiper-slider-item-block-content-btn {
+    background-image: linear-gradient(to right, #00aafc 0%, #00caad 100%);
+    color: #ffffff;
+    border-color: transparent;
+
+    padding-left: 40px;
+    margin-bottom: 50px;
+    padding-right: 40px;
+}
+
+.active div h1, .active div p, .active div button {
+    animation:  fadeInUpSmall 1.5s ease-in-out;
+}
+
+/*============================ Animation texr slider item content ============================*/
+@keyframes fadeInUpSmall {
+    0% {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*============================ Media ============================*/
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+    .mySwiper .swiper-button-prev {
+        left: 10%;
+    }
+
+    .mySwiper .swiper-button-next {
+        right: 10%;
+    }
+
+    .swiper-slider-item-block-content h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .swiper-slider-item-block-content {
+        width: 57%;
+    }
+
+    .swiper-slider-item-block-content h1 {
+        font-size: 30px;
+    }
+
+    .mySwiper .swiper-button-prev {
+        left: 7%;
+    }
+
+    .mySwiper .swiper-button-next{
+        right: 7%;
+    }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+
+    .mySwiper  .swiper-button-next, .mySwiper  .swiper-button-prev{
+        display: none;
+    }
+
+    .mySwiper .swiper-pagination-bullet{
+        display: block;
+    }
+
+    
+    .swiper-slider-item-block-content-btn {
+       margin-top: 8px;
+       margin-bottom: 0;
+    }
+
+    .swiper-slider-item-block-content h1 {
+        font-size: 32px;
+    }
+
+    .swiper-slider-item-block-content {
+        width: 80%;
+        padding: 40px 25px 80px;
+        box-sizing: border-box;
+    }
+
+    .swiper-slider-item-block {
+        justify-content: flex-start;
+    }
+
+    .swiper-slider-item-block-content p {
+      
+        margin-top: 32px;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    .swiper-slider-item-block-content {
+        width: 84%;
+        padding: 40px 15px 80px ;
+    }
+
+    .swiper-slider-item-block-content h1 {
+        font-size: 23px;
+    }
+
+    .swiper-slider-item-block-content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .swiper-slider-item-block-content {
+        width: 95%;
+        padding: 40px 15px 80px ;
+    }
+
+    .swiper-slider-item-block-content p {
+        font-size: 15px;
+    }
+}

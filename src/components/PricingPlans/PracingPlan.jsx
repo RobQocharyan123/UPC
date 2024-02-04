@@ -2,7 +2,7 @@ import "./PracingPlan.css";
 
 export const PricingPlans = () => {
   return (
-    <section className="section1">
+    <section className="section1" id="pricing">
       <div className="container">
         <h2>Pricing Plans</h2>
         <div className="pricing-tables">
