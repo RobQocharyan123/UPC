@@ -1,17 +1,21 @@
 import './App.css';
-import { Header } from './components/header/Header';
-import UpsTeam from './components/upsteam/UpsTeam';
-import { Services } from './components/services/Services';
+import { ContactUs } from './components/contactus/ContactUs';
+import { Footer } from './components/footer/Footer';
+import { PricingPlans } from './components/PricingPlans/PracingPlan';
+import { WhoChooseUs } from './components/WhoChooseUs/WhoChooseUs';
 
 function App() {
   return (
     <>
-      <Header />
 
     <div className="app">
-      <UpsTeam />
-      <Services />
+    <PricingPlans />
+      <WhoChooseUs />
+    <ContactUs />
+    
+    <Footer />
     </div>
+    
     </>
   );
 }

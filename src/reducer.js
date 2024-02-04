@@ -1,6 +1,7 @@
 export let initialState = {
     burger:false,
-    windowSize:window.innerWidth
+    windowSize:window.innerWidth,
+    active:true,
 }
 
 export const reducer = (state=initialState,action)=>{

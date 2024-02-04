@@ -1,0 +1,258 @@
+
+
+.footer{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    background-color: #23242a;
+    margin-top: 50px;
+   
+}
+
+
+/* footer-about */
+
+.footer-about{
+    width: 50%;
+
+}
+
+.footer-about .adress{
+    padding-bottom: 15px;
+}
+
+.footer-about .adress p{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-about .contact-touch{
+    width: 100%;
+    border-right: 0;
+}
+
+.footer-icons{
+    margin-top: 35px;
+    width: 100%;
+    color: #fff;
+    letter-spacing: .05em;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icons svg{
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icons svg:hover{
+        box-shadow: 0 0 0 2px rgba(95, 130, 138, 0.9);
+        transition: all .5s ease;
+}
+
+.icons a:nth-child(1) svg{
+    margin: 0;
+    background-color: #6f42c1;
+
+}
+
+.icons a:nth-child(1) svg:hover{
+    border: 2px solid #fd7e14;
+    transition: all .5s ease;
+    
+}
+
+.icons a:nth-child(2) svg{
+   background-color: #6610f2;
+}
+
+.icons a:nth-child(2) svg:hover{
+    border: 2px solid #6610f2;
+    transition: all .5s ease;
+}
+
+.icons a:nth-child(3) svg{
+    background-color: red;
+}
+.icons a:nth-child(3) svg:hover{
+        border: 2px solid cyan;
+    transition: all .5s ease;
+
+}
+
+
+.icons a:nth-child(4) svg{
+    background-color: cyan;
+
+}
+
+.icons a:nth-child(4) svg:hover{
+    border: 2px solid blue;
+    transition: all .5s ease;
+}
+
+
+
+
+
+/* footer-call */
+.footer-call{
+width: 50%;
+display: flex;
+justify-content: flex-start;
+}
+
+.shadow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+background-color: #34353B;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 0 150px  0 0;
+padding: 0 15px 0 20px ;
+}
+
+
+
+
+.headphone svg{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.phoneNumber{
+    margin-left: 50px;
+}
+
+.phoneNumber a{
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: .25s;
+}
+
+.phoneNumber a:hover{
+    color: #00a9ff;
+    transition: all .5s ease-in-out;
+}
+
+
+.phoneNumber p{
+    margin-top: 8px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* small footer */
+
+.small-footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+    background-color: #1C1D22;
+}
+
+.small-footer .upc{
+    width: 50%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    display: flex;
+}
+
+.upc a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    margin-left: 10px;
+}
+
+.support{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.small-footer a:hover{
+    color: #00a9ff;
+    transition: all .5s ease-in-out;
+}
+
+.support a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    margin-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-about{
+        width: 100%;
+    }
+
+    .footer-call{
+        width: 100%;
+    }
+
+    .shadow{
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+
+    .headphone{
+        width: 10%;
+    }
+
+    .phoneNumber{
+        width: 70%;
+    } 
+}
+
+@media screen and (max-width:477px) {
+    .footer{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .phoneNumber a{
+        font-size: 21px;
+    } 
+    
+    .phoneNumber p{
+        font-size: 12px;
+    } 
+
+    .shadow{
+        padding-left: 10px;
+    }
+
+    .small-footer{
+        padding: 20px 10px;
+    }
+    .upc{
+        flex-direction: column;
+    }
+}

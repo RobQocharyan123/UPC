@@ -1,0 +1,73 @@
+.section2 {
+  color: #9b9b9b;
+  background: #ffffff;
+  padding: 60px 0;
+  font: 14px Lato, "Helvetica Neue", Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container h2 {
+  color: #151515;
+  font: 48px "space Mono", Menlo, Monaco;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.divs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.div1 {
+  margin: 10px;
+  padding:15px;
+  display: flex;
+  cursor: pointer;
+}
+
+.div1:hover {
+  margin: 0;
+  padding: 25px;
+  -webkit-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
+  -moz-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
+  box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
+  transition: all .5s ease;
+
+}
+
+.icon {
+  width: 80px;
+  height: 139px;
+  margin: 0 0 15px;
+}
+
+.div-text {
+  margin: 0 0 15px;
+  padding: 0 0 0 30px;
+}
+
+.div-text p {
+  margin-top: 16px;
+  width: 210px;
+  height: 72px;
+  font: 14px Lato, "Helvetica Neue", Helvetica;
+}
+
+.div-text h5 {
+  width: 210px;
+  color: #151515;
+  font: 18px "Space Mono", Menlo, Monaco;
+}
+
+
+@media (max-width: 380px) {
+  .div1 {
+    width: 300px;
+  }
+}
