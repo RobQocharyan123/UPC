@@ -1,5 +1,4 @@
 import  "./WhoChooseUs.css"
-import "./../App.css"
 import { CiSettings,CiWallet,CiHeadphones } from "react-icons/ci";
 import { SlLike,SlScreenSmartphone } from "react-icons/sl";
 import { PiRocketLaunchThin } from "react-icons/pi";

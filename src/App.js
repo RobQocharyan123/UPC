@@ -2,9 +2,9 @@ import './App.css';
 import { ContactUs } from './components/contactus/ContactUs';
 import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
+import { PricingPlan } from './components/PricingPlans/PracingPlan';
 import { Services } from './components/services/Services';
-import { PricingPlans } from './components/PricingPlans';
-import { WhoChooseUs } from './components/WhoChooseUs';
+import { WhoChooseUs } from './components/WhoChooseUs/WhoChooseUs';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Header />
     <div className="app">
         <Services />
-        <PricingPlans />
+        <PricingPlan />
         <WhoChooseUs />
         <ContactUs />
     </div>

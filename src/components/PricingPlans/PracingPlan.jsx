@@ -1,6 +1,6 @@
 import "./PracingPlan.css";
 
-export const PricingPlans = () => {
+export const PricingPlan = () => {
   return (
     <section className="pricng-planc-block" id="pricing">
       <div className="container">
