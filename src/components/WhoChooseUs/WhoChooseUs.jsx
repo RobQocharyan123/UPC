@@ -1,37 +1,41 @@
 import  "./WhoChooseUs.css"
+import "./../App.css"
 import { CiSettings,CiWallet,CiHeadphones } from "react-icons/ci";
 import { SlLike,SlScreenSmartphone } from "react-icons/sl";
 import { PiRocketLaunchThin } from "react-icons/pi";
 
 
-
 export const WhoChooseUs = () =>{
     return(
         <section className="section2" id="choose">
-        <div className="container">
+        <div className="container-who-choose-use">
             <h2>Who Choose Us</h2>
-            <div className="divs">
+            <div className="divs ">
                 <div className="div1">
                     <div className="icon">
-                        <CiSettings size={50} color="#45dede"/>
+                        <CiSettings size={50} color="#45dede"  width="100%" />
                     </div>
                     <div className="div-text">
                         <h5>High Quality <br/> Hardware</h5>
-                        <p>We use top-notch hardware to develop the most efficient apps for our customers.</p>
+                        <div className="who-choose-us-item-text-block">
+                           <p>We use top-notch hardware to develop the most efficient apps for our customers.</p>
+                        </div>
                     </div>
                 </div>
                 <div className="div1">
                     <div className="icon">
-                        <CiHeadphones size={50} color="#45dede" />
+                        <CiHeadphones size={50} color="#45dede" width="100%" />
                     </div>
                     <div className="div-text">
                         <h5>Dedicated 24\7 <br /> Support</h5>
-                        <p>You can rely on our 24/7 tech support that will gladly solve any app issue you may have..</p>
+                        <div className="who-choose-us-item-text-block">
+                          <p>You can rely on our 24/7 tech support that will gladly solve any app issue you may have..</p>
+                        </div>
                     </div>
                 </div>
                 <div className="div1">
                     <div className="icon">
-                        <CiWallet size={50} color="#45dede" />
+                        <CiWallet size={50} color="#45dede"  width="100%" />
                     </div>
                     <div className="div-text">
                         <h5>30-Day Money-back <br/> Guarantee</h5>
@@ -40,7 +44,7 @@ export const WhoChooseUs = () =>{
                 </div>
                 <div className="div1">
                     <div className="icon">
-                        <PiRocketLaunchThin size={50} color="#45dede" />
+                        <PiRocketLaunchThin size={50} color="#45dede"  width="100%" />
                     </div>
                     <div className="div-text">
                         <h5>Agile and Fast <br /> Working Style</h5>
@@ -49,7 +53,7 @@ export const WhoChooseUs = () =>{
                 </div>
                 <div className="div1">
                     <div className="icon">
-                        <SlScreenSmartphone size={50} color="#45dede" />
+                        <SlScreenSmartphone size={50} color="#45dede"  width="100%"  />
                     </div>
                     <div className="div-text">
                         <h5>Some Apps are <br/> Free</h5>
@@ -58,7 +62,7 @@ export const WhoChooseUs = () =>{
                 </div>
                 <div className="div1">
                     <div className="icon">
-                        <SlLike  size={40} color="#45dede" />
+                        <SlLike  size={40} color="#45dede"  width="100%" />
                     </div>
                     <div className="div-text">
                         <h5>High Level of <br/> Usability</h5>

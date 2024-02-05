@@ -80,7 +80,7 @@ export const FormValidation = () => {
         {errors.user_email && <p className="error">{errors.user_email}</p>}
 
         {/* <input className="button" type="submit" value="Send message"  /> */}
-        <button className="button" type="submit" disabled={values.bool}>Send Message</button>
+        <button className="contact-button" type="submit" disabled={values.bool}>Send Message</button>
       </div>
     </form>
   );

@@ -2,41 +2,41 @@ import "./PracingPlan.css";
 
 export const PricingPlans = () => {
   return (
-    <section className="section1" id="pricing">
+    <section className="pricng-planc-block" id="pricing">
       <div className="container">
         <h2>Pricing Plans</h2>
         <div className="pricing-tables">
           <div className="pricing-table">
-            <div className="pricing-header">
-              <p>BASIC</p>
-            </div>
-            <div className="item-price">
-              <div>
-                <span className="item-currency">$</span>
+              <div className="pricing-item-border-right">
+                  <div className="pricing-header">
+                    <p>BASIC</p>
+                  </div>
+                  <h2 className="item-price">
+                    
+                      <span className="item-currency">$</span>
+                    
+                      <span className="item-value">399</span>
+                    
+                      <span className="item-top">99</span>
+                  
+                  </h2>
+                  <ul className="item-features">
+                    <li className="li-span">
+                      <span>
+                        Concept development
+                        <br /> UI design
+                      </span>
+                    </li>
+                    <li>Configuration management</li>
+                    <li>Software quality assurance</li>
+                    <li>App integration</li>
+                  </ul>
+                  <div className="item-control">
+                    <a className="a-btn">
+                      <button className="btn-order">ORDER NOW</button>
+                    </a>
+                  </div>
               </div>
-              <div>
-                <span className="item-value">399</span>
-              </div>
-              <div>
-                <span className="item-top">99</span>
-              </div>
-            </div>
-            <ul className="item-features">
-              <li className="li-span">
-                <span>
-                  Concept development
-                  <br /> UI design
-                </span>
-              </li>
-              <li>Configuration management</li>
-              <li>Software quality assurance</li>
-              <li>App integration</li>
-            </ul>
-            <div className="item-control">
-              <a className="a-btn">
-                <button className="btn-order">ORDER NOW</button>
-              </a>
-            </div>
           </div>
 
           <div className="pricing-table">

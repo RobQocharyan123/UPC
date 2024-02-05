@@ -1,13 +1,16 @@
 .section2 {
   color: #9b9b9b;
-  background: #ffffff;
   padding: 60px 0;
   font: 14px Lato, "Helvetica Neue", Helvetica;
 }
 
-.container {
+.container-who-choose-use {
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container h2 {
@@ -29,6 +32,8 @@
   padding:15px;
   display: flex;
   cursor: pointer;
+  transition: all .5s ease;
+
 }
 
 .div1:hover {
@@ -37,8 +42,6 @@
   -webkit-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
   -moz-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
   box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
-  transition: all .5s ease;
-
 }
 
 .icon {

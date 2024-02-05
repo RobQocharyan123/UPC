@@ -23,7 +23,7 @@ export default function Section1({items}) {
   }
 
   return (
-    <div className='section1'>
+    <div className='header-slider'>
       <Swiper
           speed={1500}
           centeredSlides={true}

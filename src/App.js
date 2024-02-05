@@ -11,15 +11,12 @@ function App() {
     <>
     <Header />
     <div className="app">
-    <Services />
-      <PricingPlans />
-      <WhoChooseUs />
-      <Services />
-    <ContactUs />
-    <Footer />
-
+        <Services />
+        <PricingPlans />
+        <WhoChooseUs />
+        <ContactUs />
     </div>
-    
+    <Footer />
     </>
   );
 }

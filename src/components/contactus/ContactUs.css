@@ -1,12 +1,12 @@
 .contact{
-    padding: 0 50px;
-    margin-top: 50px;
+    padding: 0 90px;
+    margin-top: 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: white;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 .contact h1{
@@ -14,7 +14,11 @@
     line-height: 1.45833;
     font-weight: 400;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
+}
+
+.contact-contact h2 {
+    text-align: left;
 }
 
 .contact-all{
@@ -127,21 +131,22 @@ h2{
     color: #151515;
     font-size: 36px;
     line-height: 1.33333;
-    text-align: center;
+    
     margin: 0px 0 29px 5px;
 
 }
 
-form{
+.contact-contact form{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
 }
 
 .one{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -207,9 +212,9 @@ form{
 
 
 .two{
-    margin-left: 12px;
     position: relative;
 }
+
 .two p{
     position: absolute;
     right: 11px;
@@ -281,10 +286,9 @@ textarea{
     -webkit-appearance: none;
     transition: .3s ease-in-out;
     border: 1px solid #f5f5f5;
-    margin-left: 11px;
 }
 
-.button{
+.contact-button{
     width: 45%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -307,7 +311,7 @@ textarea{
     text-transform: uppercase;
 }
 
-.button:hover{
+.contact-button:hover{
     background-image: linear-gradient(to right, #47addf 0%, #12a18b 100%);
     transition: 250ms all ease-in-out;
         border: none;
@@ -337,20 +341,35 @@ input:focus::placeholder {
 
 
 
-@media screen and (max-width:990px) {
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+    .contact {
+       padding: 80px 40px;
+       margin-top: 0;
+    }
+
     .contact-contact{
         padding:0
     }
-    
+   
+    .contact h1 {
+        margin-bottom: 40px;
+    }
 }
 
 
-
-
-@media screen and (max-width:768px) {
-    .contact-contact{
-        margin-top: 80px;
+@media screen and (max-width: 1023px) and (min-width: 768px)   {
+    .contact h1 {
+        margin-bottom: 30px;
+        font-size: 38px;
     }
+
+    .contact {
+        padding: 0 40px;
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .one p {
         right: 40px;
     }
@@ -365,7 +384,27 @@ input:focus::placeholder {
 
     .contact-contact{
         width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        box-sizing: border-box;
     }
+
+    .contact-touch h2 {
+        text-align: left;
+        font-size: 29px;
+    }
+
+    .contact-touch h2 {
+        font-size: 28px;
+        margin: 0px 0 16px 0px
+    }
+
+    .contact-contact h2 {
+        text-align: left;
+        font-size: 28px;
+    }
+
 
     .one{
         justify-content: flex-start;
@@ -385,15 +424,58 @@ input:focus::placeholder {
 }
 
 
-
-@media screen and (max-width:687px) {
+@media screen and (max-width: 767px) and (min-width: 300px)   {
+  
 
     .contact{
-        padding: 0 10px;
+        padding: 0 25px;
+        padding-bottom: 40px;
+        margin-top: 30px;
     }
+
+
+    .contact-touch a {
+        font-size: 12px;
+    }
+
+    .contact-contact h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    
+    .contact-touch div p {
+        font-size: 16px;
+    }
+
     .contact-contact{
-        margin-top: 80px;
+        margin-top: 30px;
+        padding-left: 0;
     }
+
+    .name-input {
+        width: 100%;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contact-touch h2 {
+        margin: 0px 0 29px 0;
+    }
+
+    .contact-touch h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .contact-touch {
+        border-right: none;
+    }
+
+    
 
     .contact-touch{
         padding-right: 20px;
@@ -405,6 +487,11 @@ input:focus::placeholder {
 
     .contact-touch{
         width: 100%;
+        padding-right: 0;
+    }
+
+    .contact-touch div div {
+      padding-left: 15px;
     }
 
     .contact-contact{
@@ -441,7 +528,7 @@ input:focus::placeholder {
         margin-left: 0;
     }
 
-    .button{
+    .contact-button{
         width: 100%;
         margin-top: 30px;
     }

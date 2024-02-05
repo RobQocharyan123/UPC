@@ -1,4 +1,4 @@
-.section1 {
+.pricng-planc-block {
   width: 100%;
   color: #9b9b9b;
   background: #f7f7f7;
@@ -12,12 +12,13 @@
   font: 14px Lato, "Helvetica neue", Helvetica;
 }
 
-.container h2 {
+.section1 .container h2 {
   color: #151515;
-  font: 48px "space Mono", Menlo, Monaco;
+  font: 45px "space Mono", Menlo, Monaco;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
+
 
 .pricing-tables {
   display: flex;

@@ -2,7 +2,7 @@
   width: 100%;
   color: #9b9b9b;
   background: #f7f7f7;
-  padding: 80px 0 90px;
+  padding: 80px 100px 80px;
   font: 14px Lato, "Helvetica Neue", Helvetica;
 }
 
@@ -12,27 +12,37 @@
   font: 14px Lato, "Helvetica neue", Helvetica;
 }
 
-.container h2 {
+.section1  .container h2 {
   color: #151515;
-  font: 48px "space Mono", Menlo, Monaco;
+  font: 45px "space Mono", Menlo, Monaco;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 
 .pricing-tables {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1px;
-}
-
-.pricing-table {
-  background: #ffffff;
-  padding: 50px 30px 70px;
-  width: 350px;
-  -webkit-box-shadow: 0px 7px 28px -8px rgba(34, 60, 80, 0.19);
+   -webkit-box-shadow: 0px 7px 28px -8px rgba(34, 60, 80, 0.19);
   -moz-box-shadow: 0px 7px 28px -8px rgba(34, 60, 80, 0.19);
   box-shadow: 0px 7px 28px -8px rgba(34, 60, 80, 0.19);
+  max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+
+.pricing-item-border-right {
+  border-right: 1px solid #f7f7f7;
+}
+
+.pricing-item-border-left {
+  border-left: 1px solid #f7f7f7;
+}
+.pricing-table {
+  background: #ffffff;
+  padding: 50px 0 70px;
+  width: 33%;
+  box-sizing: border-box;
 }
 
 .pricing-header {
@@ -57,12 +67,15 @@
   align-items: start;
 }
 
-.item-price div{
+.item-price{
    display: flex;
+  
 }
 
 .item-currency {
   font: 24px "Space Mono", Menlo, Monaco;
+  margin-top: 11px;
+  display: block  ;
 }
 
 .item-value {
@@ -72,6 +85,8 @@
 
 .item-top {
   font: 24px "Space Mono", Menlo, Monaco;
+  display: block;
+  margin-top: 11px;
 }
 
 .item-value-bestsellar {
@@ -83,6 +98,8 @@
 .item-top-bestsellar {
   color: #00a9ff;
   font: 24px "Space Mono", Menlo, Monaco;
+  display: block;
+  margin-top: 11px;
 }
 
 .item-features {
@@ -120,6 +137,8 @@
   width: 160px;
   background: #eaeced;
   color: #151515;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .item-control button:hover {
@@ -147,6 +166,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
 }
 
 .item-control .btn-optimal {
@@ -168,4 +188,124 @@
     rgba(44, 144, 144, 0.919) 66%,
     rgba(62, 204, 152, 0.874) 85%
   );
+}
+
+
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .pricing-tables{
+    width: auto;
+  }
+
+  .section1 {
+    width: 100%;
+    padding: 80px 50px 80px;
+   }
+
+  .item-value {
+    font: 50px "Space Mono", Menlo, Monaco;
+   }
+
+   .item-value-bestsellar {
+    font: 50px "Space Mono", Menlo, Monaco;
+   }
+
+   .item-top {
+      font: 20px "Space Mono", Menlo, Monaco;
+      margin-top: 7px;
+    }
+
+    .item-currency {
+      font: 20px "Space Mono", Menlo, Monaco;
+      margin-top: 10px;
+    }
+
+    .item-features .li-span {
+      font-size: 14px;
+    }
+
+    .item-features li {
+      font-size: 14px;
+     }
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .section1 {
+    padding: 50px 50px 60px;
+  }
+
+  .section1 .container h2 {
+    font: 38px "space Mono", Menlo, Monaco;
+    margin-bottom: 30px;
+  }
+
+  .pricing-table {
+    background: #ffffff;
+    padding: 30px 0 0 ;
+    width: 50%;
+  }
+
+  .pricing-item-border-left {
+    border: none;
+  }
+
+  .pricing-tables {
+    padding-bottom: 30px;
+    row-gap: 30px;
+  }
+  
+  .pricing-item-border-top {
+    border-top: 1px solid #f7f7f7;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .section1 {
+    width: 100%;
+    color: #9b9b9b;
+    background: #f7f7f7;
+    padding: 80px 48px 80px;
+  }
+
+  .pricing-table{
+    border-top: 1px solid black;
+    width: 100%;
+  }
+
+  .section1 .container h2 {
+    font: 30px "space Mono", Menlo, Monaco;
+    margin-bottom: 20px;
+  }
+
+  .item-value {
+    font: 35px "Space Mono", Menlo, Monaco;
+   }
+
+   .item-value-bestsellar {
+    font: 35px "Space Mono", Menlo, Monaco;
+   }
+
+   .item-top {
+      font: 16px "Space Mono", Menlo, Monaco;
+      margin-top: 4px;
+    }
+
+    .item-currency {
+      font: 16px "Space Mono", Menlo, Monaco;
+      margin-top: 6px;
+    }
+
+    .item-features .li-span {
+      font-size: 12px;
+    }
+
+    .item-features li {
+      font-size: 12px;
+     }
+
+     .item-top-bestsellar {
+      font: 14px "Space Mono", Menlo, Monaco;
+      margin-top: 4px;
+    }
 }

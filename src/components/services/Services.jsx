@@ -88,27 +88,37 @@ export const Services = () => {
       id="services"
       style={{ backgroundImage: `url(${background})`, backgroundSize: "cover" }}
     >
-      <div className="cervises_h">
-        <h1>Our Services</h1>
-      </div>
-      <div className="contents">
-        {servicesData.map((data) => (
-          <div className="services-first" key={data.id}>
-            <h3>
-              <data.icon color="#00C9B2FF" size={42} />
-            </h3>
-            <h2>{data.header}</h2>
-            <p>{data.description}</p>
-            <div className="service_details">
-              <span onClick={() => handelclick(servicesData, data)}>
-                View details
-              </span>
-            </div>
+      <div className="max-width services-block">
+          <div className="cervises_h">
+            <h1>Our Services</h1>
           </div>
-        ))}
-      {/* {CardInfo && <SeviceCard data={CardInfo} setCardInfo={setCardInfo} />} */}
+          <div className="contents">
+            {servicesData.map((data) => (
+              <div className="services-first" key={data.id}>
+                <div>
+                  <h3>
+                    <data.icon color="#00C9B2FF" size={42} />
+                  </h3>
+                  
+                    <h2>{data.header}</h2>
+                    <p>{data.description}</p> 
+                  
+                </div>
+          
+                  
+                  <button className="service_details">
+                    <span onClick={() => handelclick(servicesData, data)}>
+                      View details
+                    </span>
+                  </button>
+              </div>
+            ))}
+          {/* {CardInfo && <SeviceCard data={CardInfo} setCardInfo={setCardInfo} />} */}
 
+          </div>
       </div>
     </div>
   );
 };
+
+

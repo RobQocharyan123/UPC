@@ -4,6 +4,7 @@
       url("../font/SpaceMono-Regular.ttf") format("truetype");
 } */
 
+
 /*============================ Swiper button styele ============================*/
 .mySwiper .swiper-button-next, .mySwiper .swiper-button-prev{
     position: absolute;
@@ -146,6 +147,7 @@
     display: block;
 }
 
+
 .swiper-slider-item-block-content p {
     font-size: 18px;
     color: white;
@@ -163,6 +165,7 @@
     padding-left: 40px;
     margin-bottom: 50px;
     padding-right: 40px;
+    padding: 11px 37px;
 }
 
 .active div h1, .active div p, .active div a {
@@ -183,6 +186,12 @@
 }
 
 /*============================ Media ============================*/
+@media screen and(min-width: 1024px) {
+    .header-slider{
+        margin-top: 0;
+    }
+}
+
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
     .mySwiper .swiper-button-prev {
         left: 10%;
@@ -195,12 +204,20 @@
     .swiper-slider-item-block-content h1 {
         font-size: 50px;
     }
+
+    .header-slider {
+        margin-top: 0px;
+    }
 }
 
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .swiper-slider-item-block-content {
         width: 57%;
+    }
+
+    .header-slider {
+        margin-top: 0;
     }
 
     .swiper-slider-item-block-content h1 {
@@ -221,6 +238,10 @@
 
     .mySwiper  .swiper-button-next, .mySwiper  .swiper-button-prev{
         display: none;
+    }
+
+    .header-slider {
+        margin-top: 65px;
     }
 
     .mySwiper .swiper-pagination-bullet{
