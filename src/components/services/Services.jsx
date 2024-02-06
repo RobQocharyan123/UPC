@@ -11,15 +11,16 @@ import SeviceCard from "./SeviceCard";
 // import [photos] from '../../assets/services'
 
 import background from "../../assets/services/12.jpg";
+import { Expandable } from './Expandable';
 
 export const Services = () => {
   const servicesData = [
     {
       id: 1,
       icon: BsWindowDesktop,
-      header: "Create Your Website",
+      header: "Վեբ Կայքերի Պատրաստում․",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos ipsam,",
+        "Համաձայնեք, որ անհնար է պատկերացնել շահավետ բիզնես առանց իր «վիրտուալ այցեքարտի»՝ վեբ կայքի։ Universal Programming Company-ն (UPC) հնարավորություն կընձեռի Ձեզ ունենալ ցանկացած տեսակի և բարդության վեբ կայքեր։ UPC-ի աշխատանքային թիմում ներգրավված պրոֆեսիոնալ մասնագետները պատրաստակամ են Ձեզ համար ստեղծել, սպասարկել և արդիականացնել ցանկացած բարդության այցեքարտային, կորպորատիվ, կատալոգային, առցանց խանութների (online shopping), անձնական, լրատվական և այլ տեսակի responsive (բջջային ադապտիվ տարբերակ) վեբ կայքեր։ Վերջինիս առկայության դեպքում անհրաժեշտությունից ելնելով կարող ենք կատարել կայքի փոփխումներ, ավելացնել ցանկացած ֆունկցիոնալ ծառայություններ, առկայության դեպքում շտկել նաև առաջացած խնդիրները և այս ամենը մատուցվում է հնարավոր սեղմ ժամկետներում՝ մատչելի գներով։ ",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
       // photo: URL(background)
@@ -27,48 +28,48 @@ export const Services = () => {
     {
       id: 2,
       icon: BsDatabaseFill,
-      header: "Database Management",
+      header: "Եռաչափ (3D) մոդելավորում.",
       description:
-        "UPC provides top-notch database management solutions for small and medium businesses worldwide.",
+        "Universal Programming Company-ը (UPC) մատուցում է բարձրորակ եռաչափ՝ 3D մոդելավորման ծառայություն։ UPC-ի աշխատանքային թիմի համապատասխան մասնագետների համակարգչային գրաֆիկական հմտությունները  հնարավորություն կնձեռեն Ձեզ ունենալ ցանակացած իրական կամ երևակայական անշարժ գույքի, ստատիկ օբյեկտի կամ որևէ երևույթի եռաչափ՝ 3D ձևաչափով մոդել Մեր մոդելավորողները մասնագիտացված Autodesk 3ds Max ունիվերսալ ծրագրի կիրառմամբ՝ մանրակրկիտ ուշադրություն դարձնելով յուրաքանչյուր դետալներին կմոդելավորվեն ցանկացած բարդության և ծավալի, իրատեսական էֆֆեկտներով ճշգրիտ 3D մոդելներ։   Իրականացվում են նաև լոգոների, այցեքարտերի, բուկլետների, կատալոգների, մենյուների յուրօրինակ դիզայնով 3D մոդելավորումներ, որոնք բացառիկ հնարավորություն են ընձեռում, որպեսզի Դուք, Ձեր ընկերությունը և կամ բիզնեսը գործունեության ոլորտում լինի ավելի ներկայանալի և աչքի ընկնող",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
     },
     {
       id: 3,
       icon: BsPalette,
-      header: "UX & UI Design",
+      header: "Դիզայն",
       description:
-        "Our team of UX designers creates easy-to-understand interfaces for all kinds of applications.",
+        "Վեբ դիզայն-Գրաֆիկ դիզայն,- դիզայն-Լոգոների 3D դիզայն",
       content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
     },
     {
       id: 4,
       icon: BsWindowDesktop,
-      header: "IT Consulting",
+      header: "Մարկետինգ",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos ipsam,",
+        "•	SMM առաջխաղացում •	SEO առաջխաղացում•	Կայքի աուդիտ•	Digital Marketing (Google Ads /PPC, OLV/)  •	Local SEO (Google my business)   •	Marketing strategy/tactics     •	Marketing analysis •	Social media marketing (full)        •	Content marketing        •	Content Creation        ",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
     },
     {
       id: 5,
       icon: BsBug,
-      header: "QA & Testing",
+      header: "Սպասարկում",
       description:
-        "We pay a lot of attention to QA and Testing procedures to ensure the best quality of our software.",
+        "•	Կայքերի սպասարկում        •	Հոսթինգ և դոմեն        •	Տեխնիկական աջակցություն        .",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
     },
-    {
-      id: 6,
-      icon: CiLock,
-      header: "Security",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti",
-      content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
-    },
+    // {
+    //   id: 6,
+    //   icon: CiLock,
+    //   header: "Security",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti",
+    //   content:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti quae libero. Culpa iure optio, odio soluta voluptatem quam recusandae beatae totam vitae earum, sed temporibus nesciunt, magni aut eum?",
+    // },
   ];
 
   const [CardInfo, setCardInfo] = useState(null);
@@ -90,7 +91,7 @@ export const Services = () => {
     >
       <div className="max-width services-block">
           <div className="cervises_h">
-            <h1>Our Services</h1>
+            <h1>Մեր ծառայությունները</h1>
           </div>
           <div className="contents">
             {servicesData.map((data) => (
@@ -101,16 +102,16 @@ export const Services = () => {
                   </h3>
                   
                     <h2>{data.header}</h2>
-                    <p>{data.description}</p> 
+                    <Expandable info={data.description} />{}
                   
                 </div>
           
                   
-                  <button className="service_details">
+                  {/* <button className="service_details">
                     <span onClick={() => handelclick(servicesData, data)}>
-                      View details
+                      Կարդալ Ավելին
                     </span>
-                  </button>
+                  </button> */}
               </div>
             ))}
           {/* {CardInfo && <SeviceCard data={CardInfo} setCardInfo={setCardInfo} />} */}

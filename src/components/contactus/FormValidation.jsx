@@ -50,7 +50,7 @@ export const FormValidation = () => {
         <input
           type="text"
           name="user_name"
-          placeholder="Youre Name"
+          placeholder="Անուն"
           className="name"
           onChange={handleInput}
           onFocus={(e) => {
@@ -63,7 +63,7 @@ export const FormValidation = () => {
       <div className="two">
         <textarea
           name="user_message"
-          placeholder="Your Message"
+          placeholder="Հաղորդագրություն"
           onChange={handleInput}
         />
         {errors.user_message && <p className="error">{errors.user_message}</p>}
@@ -73,14 +73,14 @@ export const FormValidation = () => {
         <input
           type="email"
           name="user_email"
-          placeholder="E-mail"
+          placeholder="Էլեկտրոնային հասցե"
           className="email"
           onChange={handleInput}
         />
         {errors.user_email && <p className="error">{errors.user_email}</p>}
 
         {/* <input className="button" type="submit" value="Send message"  /> */}
-        <button className="contact-button" type="submit" disabled={values.bool}>Send Message</button>
+        <button className="contact-button" type="submit" disabled={values.bool}>ՈՒղարկել</button>
       </div>
     </form>
   );
