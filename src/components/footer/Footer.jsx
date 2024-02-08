@@ -16,15 +16,15 @@ export const Footer = () => {
           <div className="contact-touch">
             <div className="adress">
               <div>
-                <p>About us</p>
+                <p>Մեր Մասին</p>
               </div>
             </div>
           </div>
 
           <div className="footer-icons">
             <p>
-              Our company has been developing high-quality and reliable software
-              for corporate needs since 2008.
+            Universal Programming Company-ն (UPC) ծրագրավորման ոլորտում գործունեության լայն սպեկտր ունեցող ընկերություն է, որի աշխատանքային թիմի պրոֆեսիոնալ մոտեցումները և ժամանակակից տեխնոլոգիական լուծումները հնարավորություն են տալիս ցանկացած կազմակերպությանը կամ բիզնեսին գործունեության ոլորտում ունենալ շարունակական և արդյունավետ առաջխաղացում։
+
             </p>
             <div className="icons">
               <a href="https://www.instagram.com/universal_programming_company/" target={'_blank'}>
@@ -50,7 +50,7 @@ export const Footer = () => {
             </div>
             <div className="phoneNumber">
               <a href="tel:+(374)055475656">055475656</a>
-              <p>Our Support Service is always available 24 hours a day</p>
+              <p>Մեր Աջակցության ծառայությունը միշտ հասանելի է օրը 24 ժամ</p>
             </div>
           </div>
         </div>
