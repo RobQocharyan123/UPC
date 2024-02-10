@@ -1,10 +1,10 @@
 import "./App.css";
-import { WhyChooseUs } from "./components/WhyChooseUs/WhyChooseUs";
 import { ContactUs } from "./components/contactus/ContactUs";
 import { Footer } from "./components/footer/Footer";
 import { Header } from "./components/header/Header";
-import { Services } from "./components/services/Services";
+import { Services } from './components/services/Services';
 import { PricingPlans } from './components/PricingPlans/index';
+import { WhyChooseUs } from './components/WhyChooseUs/WhyChooseUs';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <div className="app">
         <Services />
         <PricingPlans />
-        <WhyChooseUs/>
+        <WhyChooseUs />
         <ContactUs />
       </div>
       <Footer />
