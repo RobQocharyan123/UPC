@@ -12,21 +12,15 @@ export const Header = () => {
   const items = [
     { 
       imgUrl:back1,
-      titleMas1: 'Welcome to Univaersal', 
+      titleMas1: 'Բարի գալուստ Univaersal', 
       titleMas2:"Programing Company",  
-      content: "Since our establishment, we have been delivering high-quality and sustainable software solutions for corporate business purposes."
+      content: "Universal Programming Company-ն (UPC) ծրագրավորման ոլորտում գործունեության լայն սպեկտր ունեցող ընկերություն է, որի աշխատանքային թիմի պրոֆեսիոնալ մոտեցումները և ժամանակակից տեխնոլոգիական լուծումները հնարավորություն են տալիս ցանկացած կազմակերպությանը կամ բիզնեսին գործունեության ոլորտում ունենալ շարունակական և արդյունավետ առաջխաղացում։"
     },
     { 
       imgUrl:back2,
-      titleMas1: 'Create Web Site', 
-      titleMas2:"Award-Winning Software", 
-      content: 'The software solutions developed by our company have been numerously awarded for usability and innovative features.' 
-    },
-    { 
-      imgUrl:back1,
-      titleMas1: 'Welcome to Univaersal ', 
-      titleMas2:"Programing Company",  
-      content: "Since our establishment, we have been delivering high-quality and sustainable software solutions for corporate business purposes."
+      titleMas1: 'Վեբ կայքերի', 
+      titleMas2:"պատրաստում", 
+      content: 'Համաձայնեք, որ անհնար է պատկերացնել շահավետ բիզնես առանց իր «վիրտուալ այցեքարտի»՝ վեբ կայքի։ Universal Programming Company-ն (UPC) հնարավորություն կընձեռի Ձեզ ունենալ ցանկացած տեսակի և բարդության վեբ կայքեր։ UPC-ի աշխատանքային թիմում ներգրավված պրոֆեսիոնալ մասնագետները պատրաստակամ են Ձեզ համար ստեղծել, սպասարկել և արդիականացնել ցանկացած բարդության այցեքարտային, կորպորատիվ, կատալոգային, առցանց խանութների (online shopping), անձնական, լրատվական և այլ տեսակի responsive (բջջային ադապտիվ տարբերակ) վեբ կայքեր։' 
     },
   ];
 

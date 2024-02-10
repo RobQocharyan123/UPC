@@ -2,7 +2,7 @@
   width: 100%;
   color: #9b9b9b;
   background: #f7f7f7;
-  padding: 80px 100px 80px;
+  padding: 80px 90px 80px;
   font: 14px Lato, "Helvetica Neue", Helvetica;
 }
 
@@ -50,6 +50,14 @@
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.border-left {
+   border-left: 1px solid black;
 }
 
 .pricing-header p {
@@ -196,9 +204,14 @@
     width: auto;
   }
 
+  .section1 .container h2 {
+    font: 35px "space Mono", Menlo, Monaco;
+    margin-bottom: 40px;
+  }
+
   .section1 {
     width: 100%;
-    padding: 80px 50px 80px;
+    padding: 70px 65px 70px;
    }
 
   .item-value {
@@ -234,9 +247,21 @@
     padding: 50px 50px 60px;
   }
 
+  .border-left {
+    border-left: none;
+  }
+
+  .border-top{
+    border-top: 1px solid black;
+  }
+
   .section1 .container h2 {
-    font: 38px "space Mono", Menlo, Monaco;
+    font: 32px "space Mono", Menlo, Monaco;
     margin-bottom: 30px;
+  }
+
+  .pricing-header p {
+    margin: 0 0 10px 0px;
   }
 
   .pricing-table {
@@ -265,7 +290,11 @@
     width: 100%;
     color: #9b9b9b;
     background: #f7f7f7;
-    padding: 80px 48px 80px;
+    padding: 80px 35px 80px;
+  }
+
+  .border-right, .border-left  {
+    border: none;
   }
 
   .pricing-table{
@@ -274,8 +303,8 @@
   }
 
   .section1 .container h2 {
-    font: 30px "space Mono", Menlo, Monaco;
-    margin-bottom: 20px;
+    font: 25px "space Mono", Menlo, Monaco;
+    margin-bottom: 30px;
   }
 
   .item-value {
@@ -309,3 +338,10 @@
       margin-top: 4px;
     }
 }
+
+
+@media screen and (max-width: 320px){
+  .section1 {
+    padding: 55px 15px 55px;
+  }
+} 

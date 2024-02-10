@@ -68,7 +68,7 @@
 }
 
 .navbar-info {
-    width: 50%;
+    width: 75%;
 }
 
 .nabar-info-top {
@@ -164,6 +164,10 @@
         padding-right: 10px;
     }
 
+    .nav {
+        column-gap: 70px;
+    }
+
     .navbar-info-bottom-item-last {
         padding-left: 10px;
     }
@@ -188,7 +192,7 @@
     }
 
     .navbar-info {
-        width: 70%;
+        width: 80%;
     }
 
     .navbar-info-bottom-item-last {
@@ -202,6 +206,23 @@
     .navbar-logo {
       
         width: 8%;
+    }
+
+    .nav {
+        column-gap: 40px;
+    }
+
+    .navbar-info-bottom ul li a {
+        font-size: 10px;
+    }
+
+    .navbar-info-bottom ul li:not(.navbar-info-bottom-item-first, .navbar-info-bottom-item-last) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nabar-info-top ul li {
+        font-size: 11px;
     }
 
     .navbar-logo a {

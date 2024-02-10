@@ -67,7 +67,7 @@
                     <div className='navbar-info'>
                         <div className={`nabar-info-top ${scrollPosition > 5 ? "nav-top-none" : ""}`}>
                             <ul>
-                                <li><span>24/7 Support: </span><a href="tel">1-800-700-6200</a></li>
+                                <li><span>24/7 Աջակցում: </span><a href="tel">1-800-700-6200</a></li>
                                 <li><span>E-mail: </span><a href="tel">mail@demolink.org</a></li>
                             </ul>
                             <div className='nav-social'>
@@ -78,11 +78,11 @@
                         </div>
                         <div className='navbar-info-bottom'> 
                             <ul>
-                                <li className='navbar-info-bottom-item-first'><a href="#choose">About</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#pricing">Pricing</a></li>
-                                <li><a href="">Promos</a></li>
-                                <li className='navbar-info-bottom-item-last'><a href="#contact">Contact us</a></li>
+                                <li className='navbar-info-bottom-item-first'><a href="#">Մեր մասին</a></li>
+                                <li><a href="#services">Մեր ծառայություները</a></li>
+                                <li><a href="#pricing">Գնայինն պլաններ</a></li>
+                                <li><a href="#choose">Ինչու ընրրել մեզ</a></li>
+                                <li className='navbar-info-bottom-item-last'><a href="#contact">Կապ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,11 +94,11 @@
                         <div>
                             <button className={`open-btn-mobile ${menuOpen ? "activ" : ""}`} onClick={openMenu}><span></span></button>
                             <ul className={`mobile-nav-list ${menuOpen ? "open" : "close"}`}> 
-                                <li><a href="#choose">About</a></li>
-                                <li><a href='#services'>Services</a></li>
-                                <li><a href='#pricing'>Pricing</a></li>
-                                <li><a href='#'>Promos</a></li>
-                                <li><a href='#contact'>Contact us</a></li>
+                                <li><a href="#">Մեր մասին</a></li>
+                                <li><a href='#services'>Մեր ծառայություները</a></li>
+                                <li><a href='#pricing'>Գնայինն պլաններ</a></li>
+                                <li><a href='#choose'>Ինչու ընրրել մեզ</a></li>
+                                <li><a href='#contact'>Կապ</a></li>
                             </ul>
                         </div>
                         <a href="" className='mobile-logo-block'>
@@ -117,7 +117,7 @@
                     <div className={`mobile-nav-right-side-hide-block ${openSocial ? "open-social" : "close-social"}`}>
                     <    div className="mobile-nav-right-side-block">
                                 <ul>
-                                    <li><span>24/7 Support: </span><a href="tel">1-800-700-6200</a></li>
+                                    <li><span>24/7 Աջակցում: </span><a href="tel">1-800-700-6200</a></li>
                                     <li className='m-top'><span>E-mail: </span><a href="tel">mail@demolink.org</a></li>
                                 </ul>
                                 <div className='nav-social m-top'>

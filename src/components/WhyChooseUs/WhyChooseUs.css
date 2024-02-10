@@ -1,76 +1,195 @@
-.section2 {
+.choose {
   color: #9b9b9b;
-  padding: 60px 0;
+  padding: 60px 90px;
   font: 14px Lato, "Helvetica Neue", Helvetica;
 }
 
-.container-who-choose-use {
+.choose-container-who-choose-use {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
-.container h2 {
+.choose-container h2 {
   color: #151515;
   font: 48px "space Mono", Menlo, Monaco;
   text-align: center;
   margin-bottom: 70px;
 }
 
-.divs {
+.choose-container-block {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 5px;
+  max-width: 1440px;
+  margin: auto;
 }
 
-.div1 {
+.choose-container-block-item {
+  width: 30%;
   margin: 10px;
-  padding:15px;
+  padding:30px;
   display: flex;
   cursor: pointer;
   transition: all .5s ease;
-
+  box-sizing: border-box;
 }
 
-.div1:hover {
-  margin: 0;
-  padding: 25px;
+.choose-container-block-item-icon {
+  width: 80px;
+  margin: 0 0 15px;
+  transition: all .5s;
+}
+
+.choose-container-block-item-text-block {
+  margin: 0 0 15px;
+  padding: 0 0 0 30px;
+}
+
+.choose-container-block-item-text-block p {
+  margin-top: 16px;
+  font: 14px Lato, "Helvetica Neue", Helvetica;
+}
+
+.choose-container-block-item-text-block h5 {
+  color: #151515;
+  font: 18px "Space Mono", Menlo, Monaco;
+}
+
+.choose-container-block-item:hover {
   -webkit-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
   -moz-box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
   box-shadow: 0px 1px 9px 3px rgba(34, 60, 80, 0.16);
 }
 
-.icon {
-  width: 80px;
-  height: 139px;
-  margin: 0 0 15px;
+.choose-container-block-item:hover .choose-container-block-item-icon {
+  margin-top: 25px;
 }
 
-.div-text {
-  margin: 0 0 15px;
-  padding: 0 0 0 30px;
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+
+  .choose-container-block-item-text-block {
+    margin: 0 0 15px;
+    padding: 0 0 0 20px;
+  }
+
+  .choose-container h2 {
+    font: 35px "space Mono", Menlo, Monaco;
+    margin-bottom: 40px;
+  }
+
+  .choose {
+    color: #9b9b9b;
+    padding: 70px 62px;
+  }
+
+  .choose-container-block-item {
+    padding: 10px;
+  }
+
+  .choose-container-block-item-text-block p {
+    font: 12px Lato, "Helvetica Neue", Helvetica;
+  } 
 }
 
-.div-text p {
-  margin-top: 16px;
-  width: 210px;
-  height: 72px;
-  font: 14px Lato, "Helvetica Neue", Helvetica;
-}
-
-.div-text h5 {
-  width: 210px;
-  color: #151515;
-  font: 18px "Space Mono", Menlo, Monaco;
-}
 
 
-@media (max-width: 380px) {
-  .div1 {
-    width: 300px;
+@media screen and (max-width:1023px) and (min-width: 768px) {
+  .choose-container-block-item {
+    width: 46%;
+  }
+
+  .choose {
+    padding: 60px 50px;
+  }
+
+  .choose-container h2 {
+    color: #151515;
+    font: 32px "space Mono", Menlo, Monaco;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .choose-container-block-item-text-block h5 {
+    font: 16px "Space Mono", Menlo, Monaco;
+   }
+
+  .choose-container-block-item-text-block {
+    padding: 0 0 0 15px;
+  }
+
+  .choose-container-block-item-text-block p {
+    font: 12px Lato, "Helvetica Neue", Helvetica;
   }
 }
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .choose-container h2 {
+    font: 25px "space Mono", Menlo, Monaco;
+    margin-bottom: 30px;
+  }
+
+  .choose-container-block-item-text-block p {
+    width: 100%;
+     height: auto;
+  }
+
+  .choose-container-block-item {
+    width: 100%;
+  }
+
+  .choose {
+    padding: 60px 35px
+  }
+}
+
+@media screen and (max-width: 420px) and (min-width: 300px) {
+  .choose-container-block-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .choose-container-block-item:hover .choose-container-block-item-icon {
+    margin-top: 0;
+  }
+
+  .choose-container-block-item-text-block h5 {
+    width: 100%;
+  }
+
+
+  .choose-container-block-item-text-block {
+    padding: 0px 0 0 0px;
+  }
+
+
+  .choose-container-block-item-choose-container-block-item-icon {
+    width: 80px;
+    height: 60px;
+  }
+
+  .choose-container-block-item-text-block p {
+    font: 12px Lato, "Helvetica Neue", Helvetica;
+  }
+
+  .choose-container-block-item-text-block h5 {
+    font: 16px
+  }
+}
+
+@media (max-width: 340px) {
+  .choose-container-block-item {
+    width: 100%;
+  }
+}
+

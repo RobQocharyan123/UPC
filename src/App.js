@@ -1,10 +1,10 @@
 import "./App.css";
-import { PricingPlans } from "./components/PricingPlans";
 import { WhyChooseUs } from "./components/WhyChooseUs/WhyChooseUs";
 import { ContactUs } from "./components/contactus/ContactUs";
 import { Footer } from "./components/footer/Footer";
 import { Header } from "./components/header/Header";
 import { Services } from "./components/services/Services";
+import { PricingPlans } from './components/PricingPlans/index';
 
 
 function App() {
